@@ -1,0 +1,30 @@
+{
+    "name": "kowebtech-ict/evo-php",
+    "description": "A modern Php framework",
+    "type": "library",
+    "require": {
+        "inhere/sroute": "^3.0",
+        "jenssegers/blade": "^1.4",
+        "phpmailer/phpmailer": "^6.8",
+        "kktsvetkov/assoto": "^0.1.2",
+        "delight-im/cookie": "^3.4",
+        "ralouphie/getallheaders": "^3.0",
+        "kub-at/php-simple-html-dom-parser": "^1.9",
+        "league/oauth2-server": "^8.5",
+        "firebase/php-jwt": "^6.5",
+        "symfony/filesystem": "^6.2",
+        "josantonius/json": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EvoPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kingsley Okafor",
+            "email": "kinsokafor2@gmail.com"
+        }
+    ]
+}
